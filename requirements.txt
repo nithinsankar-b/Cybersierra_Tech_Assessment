@@ -1,0 +1,9 @@
+streamlit==1.32.0
+pandas==2.1.4
+openpyxl==3.1.2
+xlrd==2.0.1
+openai==1.13.3
+python-dotenv==1.0.1
+lida==0.0.10
+pandasai==2.0.10
+Pillow==10.2.0
