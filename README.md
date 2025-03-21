@@ -4,6 +4,7 @@ An interactive Streamlit application that uses AI to help users explore and visu
 
 ## Live Demo
 Check out the live version of the app here: [AI-Powered Data Explorer](https://cybersierratechassessment-e2lzvhfjiqwdtmaaq4wstd.streamlit.app/)
+Note: However, OpenAI API Key required!
 
 ## Features
 
