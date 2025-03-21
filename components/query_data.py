@@ -12,6 +12,12 @@ def render_query_data():
     # Query input
     text_area = st.text_area("Enter your query about the data:", height=200)
     
+    # Check if the query contains graph-related keywords
+    graph_keywords = ["plot", "graph", "chart", "visualize"]
+    if any(keyword in text_area.lower() for keyword in graph_keywords):
+        st.warning("It seems like you're trying to generate a graph. Please use the 'Generate Graph' option instead.")
+        return  # Exit the function early, preventing further processing
+    
     # Query button
     if st.button("Query Data", key="query_data"):
         if text_area.strip():
